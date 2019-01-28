@@ -9,9 +9,12 @@
 #include <fstream>
 using namespace std;
 
-const double Pi  = 3.141592653589793;
-const double Piby2 = 1.5707963267948966192;
-
+const double eps = 1e-15;//double是16位小数
+const double myinf = 1e20;
+//const double Pi  = 3.141592653589793;
+const double Pi = 3.141592653589793238462643383279502884197;
+//const double Piby2 = 1.5707963267948966192;
+const double Piby2 = 1.57079632679489655799898173427209258;
 //double mymax(double a, double b);
 //void diffeqs(double b, double vars[], double diffs[],double spin, double krz_d[]);
 //void intersection(double x_1, double y_1, double z_1, double x_2, double y_2, double z_2, double x_d[]);
